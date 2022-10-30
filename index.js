@@ -7,7 +7,7 @@ app.use(cors());
 
 
 app.get('/', (req, res) => res.json({
-    slackUsername : "priest",
+    slackUsername : "6ix.priest",
     backend : true,
     age : 23,
     bio : "I am a Priest"
