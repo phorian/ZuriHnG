@@ -10,7 +10,7 @@ app.get('/', (req, res) => res.json({
     slackUsername : "priest",
     backend : true,
     age : 23,
-    Bio : "I am a Priest"
+    bio : "I am a Priest"
 }))
 
 app.listen(PORT, () => {
